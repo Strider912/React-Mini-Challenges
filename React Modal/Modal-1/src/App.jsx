@@ -1,35 +1,76 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Modal from "./components/Modal";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <Modal />
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
+      </p>
+      <p style={{ "font-size": "44px" }}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos
+        deleniti provident! Cumque dolorum accusantium distinctio id ipsam. Aut
+        corporis, inventore earum, quod possimus odit corrupti error explicabo
+        minus, voluptatibus ipsa cum quaerat officia? Reiciendis expedita,
+        repellendus eligendi suscipit atque provident consequuntur tenetur minus
+        accusamus quia vitae ipsa sint. Voluptas.
       </p>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
